@@ -1,0 +1,74 @@
+1. Project Overview
+This program is to simulate a Ontario G1 test. When the program starts, it wil greet the user with a welcome message.
+Then a menu will be displayed where the user decides whether to take the G1 test or login as a admin.The program uses variables, arrays, Arraylists, loops, conditionals, user input and more.
+--------------------------------------------
+2. Greeting message & Main menu
+When the program starts, a greeting message is displayed. The user is then shown a menu with the following:
+a. Write a G1 Test
+b. Login as Admin
+Variables used:
+String
+If else statements
+while loops
+------------------------------------------
+3. Admin login & Admin menu
+If login as admin is selected, the user is prompted to enter a password. The entered password is compared to a stored password using conditional statements.
+If the password is correct, the admin menu will display these messages:
+- Add a question
+- Remove a question
+Variables used:
+String
+Arraylist, .add() and .remove()
+input validation using loops
+-----------------------------------------
+4. Question Bank
+The program contains two question banks, each with 10 questions from Ontario Driver's Handbook
+What the code stores:
+- The question text
+- Multiple choice options (array)
+- Correct answer (character)
+Variables:
+Arraylist<Question> rulesQuestions
+Arraylist<Question> signsQuestions
+--------------------------------------
+5. Writing the G1 Test
+When the user starts the test:
+- Questions are selected randomly from each question bank
+- A separate Arraylist keeps track of which questions have already been used
+- This ensures that no repeated questions appear
+Variables used:
+Random class
+for and while
+Arraylist .contains()
+-------------------------------------------
+6. Displaying Questions & User Input
+Each question is displayed with multiple-choice questions. The user answers by entering letters or words.
+Input it to be checked so that it is not empty and that it matched a valid option.
+Variables used:
+Scanner
+Conditional Statements
+Loops for re-prompting
+----------------------------------------
+7. Answer Feedback
+After each answer, the program immediately tells the user if their answer if correct or incorrect. Then scores are updated
+Variables used:
+int rulesScore
+int signsScore
+int totalScore
+-----------------------------------------
+8. Early Test Termination
+After each question, the program checks if the user can still pass the test based in their current score and remaining questions.
+If passing is no longer possible,the test end early and the use ris informed that they cannot pass.
+Variables used:
+Arithmetic variables
+Conditionals
+-----------------------------------------
+9. Final Results
+At the end of the test, the program displays:
+- Score for each section
+- Final score
+- Pass or fail result
+------------------------------------------
+10. Check for errors
+Run the code and check for errors.
+
